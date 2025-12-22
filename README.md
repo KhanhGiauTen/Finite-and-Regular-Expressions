@@ -8,13 +8,13 @@ Dự án này là sản phẩm thuộc học phần **Ngôn ngữ hình thức**
 
 | STT | Họ và Tên | MSSV |
 |-----|-----------|------|
-| 1 | [Tên thành viên 1] | [MSSV] |
-| 2 | [Tên thành viên 2] | [MSSV] |
-| 3 | [Tên thành viên 3] | [MSSV] |
-| 4 | [Tên thành viên 4] | [MSSV] |
-| 5 | [Tên thành viên 5] | [MSSV] |
+| 1 | Nguyễn Quốc Khánh | [MSSV] |
+| 2 | Tô Xuân Đông | [MSSV] |
+| 3 | Ngô Chánh Phong | [MSSV] |
+| 4 | Phùng Chí Tâm | [MSSV] |
+| 5 | Bùi Trọng Nguyên | [MSSV] |
 
-**Giảng viên hướng dẫn:** ThS. [Tên giảng viên]
+**Giảng viên hướng dẫn:** ThS. Hồ Thanh Tuyến
 
 ---
 
