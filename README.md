@@ -18,7 +18,7 @@ Dự án này là sản phẩm thuộc học phần **Ngôn ngữ hình thức**
 ---
 
 ## Cấu trúc hệ thống
-
+```bash
 Finite-and-Regular-Expressions/
 ├── app.py                  # Điểm khởi chạy chính của ứng dụng (Main Entry Point)
 ├── DFA-simulator.py        # Script mô phỏng DFA đơn giản (Standalone script)
@@ -35,7 +35,7 @@ Finite-and-Regular-Expressions/
     ├── current_dfa         # File lưu trạng thái DFA hiện tại
     ├── current_dfa.png     # Ảnh render sơ đồ DFA (Thumbnail)
     └── dfa_graph.png       # Ảnh render sơ đồ DFA chất lượng cao
-
+```
 ---
 
 ## Tính năng chính
