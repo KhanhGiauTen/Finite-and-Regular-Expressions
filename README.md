@@ -15,10 +15,30 @@ Dự án này là sản phẩm thuộc học phần **Ngôn ngữ hình thức**
 | 5 | Bùi Trọng Nguyên | [MSSV] |
 
 **Giảng viên hướng dẫn:** ThS. Hồ Thanh Tuyến
+---
+
+## Cấu trúc hệ thống
+
+Finite-and-Regular-Expressions/
+├── app.py                  # Điểm khởi chạy chính của ứng dụng (Main Entry Point)
+├── DFA-simulator.py        # Script mô phỏng DFA đơn giản (Standalone script)
+├── README.md               # Tài liệu hướng dẫn sử dụng và cài đặt
+├── requirements.txt        # (Khuyên dùng) Danh sách thư viện cần cài đặt
+├── automata/               # Package xử lý logic lõi (Backend Algorithms)
+│   ├── __init__.py
+│   ├── regex_to_nfa.py     # Class RegexToNFAConverter: Xử lý Shunting Yard & Thompson
+│   └── nfa_to_dfa.py       # Hàm nfa_to_dfa: Xử lý Subset Construction (Tập con)
+├── gui/                    # Package giao diện người dùng (Frontend)
+│   ├── __init__.py
+│   └── mini_jflap.py       # Class MiniJFLAP: Quản lý GUI Tkinter, vẽ Graphviz và Simulation
+└── assets/                 # (Tự động sinh ra khi chạy)
+    ├── current_dfa         # File lưu trạng thái DFA hiện tại
+    ├── current_dfa.png     # Ảnh render sơ đồ DFA (Thumbnail)
+    └── dfa_graph.png       # Ảnh render sơ đồ DFA chất lượng cao
 
 ---
 
-## Tính Năng Chính
+## Tính năng chính
 
 - **Chuyển đổi Regex sang NFA:** Sử dụng giải thuật Thompson's Construction kết hợp với Shunting Yard để xử lý độ ưu tiên toán tử.
 - **Chuyển đổi NFA sang DFA:** Cài đặt thuật toán Subset Construction (Mô phỏng tập hợp con) để loại bỏ tính không đơn định.
