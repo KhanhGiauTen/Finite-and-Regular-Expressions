@@ -14,7 +14,7 @@ Dự án này là sản phẩm thuộc học phần **Ngôn ngữ hình thức**
 | 4 | Phùng Chí Tâm | [MSSV] |
 | 5 | Bùi Trọng Nguyên | [MSSV] |
 
-**Giảng viên hướng dẫn:** ThS. Hồ Thanh Tuyến
+**Giảng viên hướng dẫn:** ThS. Hồ Thị Thanh Tuyến
 ---
 
 ## Cấu trúc hệ thống
