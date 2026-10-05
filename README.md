@@ -1,5 +1,16 @@
 # Finite and Regular Expressions
 
+## Public Browser Demo
+
+[Automata Studio](https://automata-khanh-demo.vercel.app) runs the original Python
+Thompson and subset-construction modules in a Pyodide worker. The web interface
+adds NFA/DFA graphs, a transition table, string-recognition trace and JSON export.
+The browser adapter restricts inputs to a bounded educational subset; it is not
+a PCRE or JavaScript regex engine. Team authorship is unchanged.
+
+See [browser deployment notes](docs/browser-demo.md) for scope, input bounds and
+verification commands. The original Tkinter application remains available.
+
 Dự án này là sản phẩm thuộc học phần **Ngôn ngữ hình thức**, tập trung nghiên cứu và cài đặt các thuật toán chuyển đổi từ **Biểu thức chính quy (Regular Expression)** sang **NFA** và **DFA**, đồng thời mô phỏng quá trình đoán nhận chuỗi. Hệ thống được xây dựng hoàn toàn bằng **Python** với giao diện đồ họa **Tkinter** trực quan.
 
 ---

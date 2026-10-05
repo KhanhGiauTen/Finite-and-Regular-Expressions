@@ -1,0 +1,18 @@
+[
+  {
+    "regex": "(a+b)*abb",
+    "text": "aabb"
+  },
+  {
+    "regex": "E",
+    "text": ""
+  },
+  {
+    "regex": "a*b*",
+    "text": "abbb"
+  },
+  {
+    "regex": "a*",
+    "text": "z"
+  }
+]

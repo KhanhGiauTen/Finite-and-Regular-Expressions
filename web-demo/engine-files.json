@@ -1,0 +1,6 @@
+[
+  "browser_api.py",
+  "automata/__init__.py",
+  "automata/regex_to_nfa.py",
+  "automata/nfa_to_dfa.py"
+]
